@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <style>
+        button {
+            position: absolute;
+            width: 100px;
+            height: 40px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <div class="texto">
+        <h1> ¿ Aceptas mi regalo :3 ?</h1>
+    </div>
+
+    <div class="botones">
+        <button id="btn"><a href="mariachi.html">Si</a></button>
+
+        <button class="btn" style="left:100px">No</button>
+    </div>
+
+
+
+    <script>
+        $('.btn').on('mouseover', function () {
+            $(this).css({
+                'top': Math.random() * window.innerHeight + "px",
+                'left': Math.random() * window.innerWidth + "px"
+            });
+        })
+        $('#btn').click(function () {
+            alert("y mis mariachis??")
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+button {
+    padding: 2px;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: palevioletred;
+}
